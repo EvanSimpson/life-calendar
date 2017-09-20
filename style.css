@@ -1,0 +1,71 @@
+html{
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#page-insert{
+  width: 100%;
+}
+
+h1 {
+  margin: auto;
+  border-bottom: 1px solid black;
+  width: 625px;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.row{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+  justify-content: space-around;
+  padding-top: 2px;
+  margin: auto;
+}
+
+.box {
+  box-sizing: border-box;
+  height: 8px;
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.box-colored {
+  -webkit-print-color-adjust: exact;
+  box-sizing: border-box;
+  background-color: #1aaaf7;
+  height: 8px;
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.year {
+  position: absolute;
+  left: -25px;
+  top: -3px;
+  font-size: 13px;
+  text-align: right;
+  width: 20px;
+}
+
+center {
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 16px;
+}
+
+@media print {
+  center {
+    display: none;
+  }
+}
